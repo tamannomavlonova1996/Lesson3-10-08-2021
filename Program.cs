@@ -10,8 +10,8 @@ namespace Lesson3_10_08_2021
         {
             // 1 таск
             Console.WriteLine("Выведите сумму покупки:");
-            int summa = Convert.ToInt32(Console.ReadLine());
-            var skidka = 0;
+            double summa = Convert.ToDouble(Console.ReadLine());
+            var skidka = 0.0;
             if (summa > 500 && summa <= 1000)
             {
                 skidka = (3 * summa) / 100;
@@ -79,4 +79,3 @@ namespace Lesson3_10_08_2021
         }
     }
 }
-
